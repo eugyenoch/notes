@@ -1,0 +1,51 @@
+Flex Box Layout
+
+STAGE ONE - THE FLEXBOX ITSELF(The main container)
+1. Flex Container
+This is parent element that holds all flex items. The CSS display property will have a value of either flex or inline-flex. e.g div{display:flex;}
+
+2. Axes
+Each flexbox contains two axes: "The main axis" and "The cross axis" The main axis is the [horizontal] axis on which the items align with each other. The cross axis is the 
+[vertical] perpendicular axis.
+
+3. Flex-direction
+Establishes the main axis and css property can be: row(default), row-reverse, column, column-reverse.
+
+4. Justify-content
+Determines how content gets placed on the main axis on the content line and property values or arguments include: flex-start,flex-end,center,space-between,space-around.
+
+5. Align-items
+Determines the default for how the flex items get placed on the cross axis on each line.
+
+6. Align-content
+Determines the default for how flex lines(cross/axis lines1 are aligned). values can include: space-between; space-around; stretch(default); center; flex-start; flex-end.
+
+7. Flex-direction
+Determines where to start placing flex items within the flex container. i.e in what direction to stack the flex items.
+
+8. Flex-wrap
+The flex-wrap property specifies if flex items should wrap or not and values can be either of: wrap; nowrap(default); wrap-reverse.
+
+9. Flex-flow
+Flex-flow is a shorthand for the flex-direction and flex-wrap properties. e.g div{flex-flow:row wrap;}
+
+STAGE TWO - THE FLEXBOX ITEMS(Items within the flexbox container)
+Any direct element within the flex container is considered a flex item. Direct child elements of the flexible container automatically becomes flexible items.
+CONCEPTS:
+1. Align-self
+Determines how a single item is placed along the cross-axis and overrides the defaults set by align-items property.
+
+2.Order
+Changes the order of the flex items, default is 0 but any number may be specified. e.g div.item1{order:2;}
+
+3. flex-grow
+Specifies how much a flex item should grow in relation to the rest of the flex items. default is 0 but any number may be specified. e.g div.item1{flex-grow:2;}
+
+3. flex-shrink
+Specifies how much a flex item should shrink in relation to the rest of the flex items. default is 1 but any number may be specified. e.g div.item1{flex-shrink:2;}
+
+4.flex-basis
+Specifies the initial length of  flex item. values can be specified in px, em, % or other forms.
+
+5.flex
+Shorthand for flex-grow; flex-shrink and flex-basis properties e.g div.item1{flex:0 0 200px;}
