@@ -1,0 +1,69 @@
+SOME OTHER CSS SELECTORS - PSEUDO CLASSES and PSEUDO ELEMENTS
+
+PSEUDO CLASSES (:)
+(1) :hover -> img:hover -> Selects an element upon hovering of mouse.
+
+(2) :checked -> .gender:checked -> Selects an element when checked
+
+(3) :active -> a:active -> Selects the active element
+
+(4) :disabled -> input:disabled -> Selects a disabled element
+
+(5) :empty -> p:empty -> Selects an empty element
+
+(6) :enabled -> p:enables -> Selects an enabled element
+
+(7) :first-child -> div.my-div:first-child -> Selects the first element in a <div class="my-div">
+
+(8) :visited -> a:visited -> Styles a link that has been clicked
+
+(9) :link -> a:link -> Styles a link that has not been clicked
+
+(10) :valid -> .element:valid -> Styles a valid input or element
+
+(11) :invalid -> .element:invalid -> Styles a invalid input or element
+
+(12) :not() -> div:not(p) -> Styles e very element in the selected EXCLUDING the paragraphs<p>
+
+(13):nth-child() -> tr:nth-child(even) -> Styles even rows in the table.
+
+(14):nth-last-child() -> tr:nth-last-child(even) -> Styles the last even table row in the table.
+
+EXAMPLES
+tr:nth-child(even){
+	background-color:#cccc;
+	color:#000;
+}
+
+img:hover{
+	opacity:0.3;
+	filter:background(30%);
+}
+
+
+=============PSEUDO ELEMENTS(::)============================
+(1)::first-letter -> p::first-letter -> This will style the first letter in the selected paragraph.
+
+(2)::first-line -> p::first-line -> This will style the first line in the selected paragraph.
+
+(3)::selection -> p::selection -> This will style the selected text.
+
+(4) ::before -> p::before -> This will add some item before the selected paragraph.
+
+(5) ::after -> p::after -> This will add some item after the selected paragraph.
+
+EXAMPLES
+/* This will add some content after the chosen paragraph*/
+p::after{
+	content:"From my android";
+	content:url('image.jpg');
+	image:url('image.jpg');
+}
+
+/*This will style the selected text in the chosen paragraph*/
+p::selection{
+	background-color:blue;
+	color:white;
+}
+
+
