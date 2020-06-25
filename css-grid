@@ -1,0 +1,47 @@
+CSS GRID LAYOUT
+CSS grid layout is a technique in css that allows web developers to create more complex responsive web design layouts more easily and consistently across browsers.
+
+Other methods of controlling web page layout methods including:  Tables; The Box Model; CSS Flex box.
+
+An HTML element becomes a grid container when it's display property is set to grid or inline-grid. For example div.container{display:grid}
+
+PROPERTIES OF GRID
+1a. Grid-columns
+The vertical lines of grid items are called columns
+
+1b. Grid-template-columns
+defines the number of columns and the width of the columns
+
+2a.Grid-rows
+The horizontal lines of grid items are called rows
+
+2b.Grid-template-rows
+defines the number of rows and the height of the columns
+
+3. Grid-gaps
+The spaces between each column and rows are called gaps. Use the grid-row-gap property for row gaps and grid-column-gap for column gap. Use the grid-gap property for the grip-row-gap and the grid-column-gap properties.
+
+4.Grid lines
+The lines between coluns are called column lines and the lines between rows are called row lines. You can refer to line numbers when placing grid items in a grid cotainer.
+
+5.Justify-content
+Determines how content gets placed horizontally on the content line and property values or arguments include: start,end,center,space-between,space-around.
+
+6.Align-items
+Determines the default for how the grid items get placed vertically on each line.
+
+7a.Grid-column-start
+This specifies where a grid item will begin at the column(vertical) placement.
+
+7b.Grid-column-end
+This specifies where a grid item will terminate at the column(vertical) placement.
+
+shorthand: grid-column -> grid-column-start/grid-column-end properties.
+
+8a.Grid-row-start
+This specifies where a grid item will begin at the row(horizontal) placement.
+
+8b.Grid-row-end
+This specifies where a grid item will terminate at the row(horizontal) placement.
+
+shorthand: grid-row -> grid-row-start/grid-row-end properties.
