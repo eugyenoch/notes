@@ -1,0 +1,12 @@
+.mybtn{
+	background:linear-gradient(229deg,#4382f8 3%, #640ddd 100%);
+	font-weight:500;
+	color:#fff; 
+	padding-top:10px; 
+	padding-bottom:10px; 
+	padding-left:20px; 
+	padding-right:20px; 
+	text-align:center;
+	border:none; 
+	border-radius:21px;
+}
