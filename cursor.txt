@@ -1,0 +1,38 @@
+CURSOR SHPAES => USE THE {cursor:} declaration to evoke. e.g
+p{cursor:default;}
+
+1. default;
+2. crosshair;
+3. alias;
+4. all-scroll;
+5. auto;
+6. cell;
+7. context-menu;
+8. col-resize;
+9. row-resize;
+10. e-resize;
+11. n-resize;
+12. nesw-resize; 
+13. ew-resize;
+14. ne-resize;
+15. ns-resize;
+16. s-resize;
+17. se-resize;
+18. w-resize;
+19. sw-resize;
+20. nw-resize;
+21. nwse-resize;
+22. copy;
+23. not-allowed;
+24. grab;
+25. grabbing;
+26. help;
+27. move;
+28. none;
+29. no-drop;
+30. pointer;
+31. progress;
+32. text;
+33. wait;
+34. zoom-in;
+35. zoom-out;
