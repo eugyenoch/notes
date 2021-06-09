@@ -44,3 +44,9 @@ weibullvariate() => Returns a random float number based on the Weibull distribut
 
 ARITHMETIC OPERATORS IN PYTHON
 + / // * ** - %
+
+Priority	Operator	
+1				+, -	unary
+2				**	
+3				*, /, %	
+4				+, -	binary
