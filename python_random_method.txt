@@ -41,3 +41,6 @@ vonmisesvariate() => Returns a random float number based on the von Mises distri
 paretovariate() => Returns a random float number based on the Pareto distribution (used in probability theories)
 
 weibullvariate() => Returns a random float number based on the Weibull distribution (used in statistics)
+
+ARITHMETIC OPERATORS IN PYTHON
++ / // * ** - %
